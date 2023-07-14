@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Hide Bad Streamer",
+    "version": "1.0",
+    "author": "Mittelblut9",
+    "homepage_url": "https://github.com/Mittelblut9/hide-bad-streamer",
+    "description": "",
+    "content_scripts": [
+        {
+            "matches": ["*://*.twitch.tv/*"],
+            "js": ["hide.js"]
+        }
+    ],
+    "permissions": ["storage"],
+    "host_permissions": ["https://twitch.tv/", "https://www.twitch.tv/"],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "001adb357105011bcfa208ffb536920c67eab935@temporary-addon",
+            "strict_min_version": "42.0"
+        }
+    }
+}
