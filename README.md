@@ -4,7 +4,7 @@ Hide some braindead streamer. We provide a list of streamers to hide, and this s
 
 ## Installation
 
-1. Clone this repo
+1. Clone this repo or download the latest release and extract it
 
 ---
 
