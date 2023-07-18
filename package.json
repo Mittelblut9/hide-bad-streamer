@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "format-windows": "docker run --rm -v %cd%:/app -w /app node:18.8 sh -c \"npm install -g prettier && prettier --write .\"",
+    "format-linux": "docker run --rm -v $(pwd):/app -w /app node:18.8 sh -c \"npm install -g prettier && prettier --write .\""
+  }
+}
