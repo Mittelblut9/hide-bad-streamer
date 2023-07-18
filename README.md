@@ -6,12 +6,15 @@ Hide some braindead streamer. We provide a list of streamers to hide, and this s
 
 1. Clone this repo
 
------ Optional ----- 2. Add `streamer.custom.json` to the root directory (It have to be the same data structure as `streamer.json`)
+---
+
+#### Optional
+
+2. Add `streamer.custom.json` to the root directory (It have to be the same data structure as `streamer.json`)
 
 ---
 
 3. Add the addon folder to your browser under `chrome://extensions/`
-
 
 ## Future plans
 
